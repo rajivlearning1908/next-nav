@@ -4,6 +4,7 @@
     align-items: center;
     height: 100vh;
     background-color: #f4f7fa;
+    padding: 0 40px;
   }
   
   .formContainer {
@@ -66,4 +67,27 @@
     margin-bottom: 10px;
     text-align: center;
   }
+  .textCenter {
+    text-align: center;
+  }
+
+  .mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f7fa;
+    padding: 0 40px;
+  }
+  .mainContainerCustom {
+    align-items: center;
+    background-color: #f4f7fa;
+    padding: 0 40px;
+  }
+
+  .back {
+    color: blue;
+    font-weight: bold;
+    
+  }
+  
   

@@ -1,7 +1,7 @@
 // pages/login.js
 import { useState } from 'react';
 import { useRouter } from 'next/router';
-import styles from './Login.module.css';
+import styles from './main.module.css';
 
 export default function LoginPage() {
     const [user, setUser] = useState('');
