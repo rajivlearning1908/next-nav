@@ -32,3 +32,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+===========================================================================
+Key Differences in Next Js Routing
+=========================================
+
+File-Based Routing (Built-In): Next.js provides file-based routing out of the box. This means that the file structure in the pages directory directly corresponds to your URL structure. For example, a file named pages/about.js automatically becomes accessible at /about. This greatly simplifies routing, as no additional routing libraries are required.
+
+Server-Side and Static Rendering: Next.js has built-in support for Server-Side Rendering (SSR), Static Site Generation (SSG), and Client-Side Rendering (CSR). Routes can be pre-rendered either at build time (SSG) or on-demand during request time (SSR), offering performance and SEO benefits.
+
+Dynamic Routing: Dynamic routes are handled by using bracket notation in the file names, like pages/posts/[id].js. This allows for easy creation of dynamic pages, and the route parameters are passed as props to the component.
+
+
