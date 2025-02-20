@@ -23,5 +23,5 @@ export function middleware(req) {
 
 // Optional: Specify which paths the middleware should apply to
 export const config = {
-  matcher: ['/dashboard', '/profile', '/settings'], // Protected routes
+  matcher: ['/dashboard', '/login', '/about', 'contact', '/projects'], // Protected routes
 };
